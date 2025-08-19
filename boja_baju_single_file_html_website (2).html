@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boja Baju</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: black;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #eee;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Boja Baju</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="baju.html">Baju</a>
+    <a href="celana.html">Celana</a>
+    <a href="tas.html">Tas</a>
+  </nav>
+
+  <div class="container">
+    <div class="product">
+      <a href="https://wa.me/6281234567890" target="_blank">
+        <img src="rok-beige.png" alt="Rok Beige">
+        <h3>Rok Beige</h3>
+      </a>
+    </div>
+    <div class="product">
+      <a href="https://wa.me/6281234567890" target="_blank">
+        <img src="rok-black.png" alt="Rok Hitam">
+        <h3>Rok Hitam</h3>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
